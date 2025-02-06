@@ -1,0 +1,14 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/Unreal Telemetry Project/trunk/TelemetryPlugin/Plugins/SimpleTelem/Content/Telemetry/S_Telemetry_Data.uasset",
+				"D:/Unreal Telemetry Project/trunk/TelemetryPlugin/Content/ThirdPerson/Telem_Tables/DT_TelemetryTable_Test.uasset",
+				"D:/Unreal Telemetry Project/trunk/TelemetryPlugin/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset"
+			]
+		}
+	]
+}

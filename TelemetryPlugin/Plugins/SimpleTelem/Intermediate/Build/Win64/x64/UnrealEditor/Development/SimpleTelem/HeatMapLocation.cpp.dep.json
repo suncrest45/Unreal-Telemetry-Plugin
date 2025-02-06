@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unreal telemetry project\\trunk\\telemetryplugin\\plugins\\simpletelem\\source\\simpletelem\\telemetry\\heatmaplocation.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal telemetry project\\trunk\\telemetryplugin\\intermediate\\build\\win64\\x64\\telemetryplugineditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\unreal telemetry project\\trunk\\telemetryplugin\\plugins\\simpletelem\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\simpletelem\\definitions.simpletelem.h",
+            "d:\\unreal telemetry project\\trunk\\telemetryplugin\\plugins\\simpletelem\\source\\simpletelem\\telemetry\\heatmaplocation.h",
+            "d:\\unreal telemetry project\\trunk\\telemetryplugin\\plugins\\simpletelem\\intermediate\\build\\win64\\unrealeditor\\inc\\simpletelem\\uht\\heatmaplocation.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

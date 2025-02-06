@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unreal telemetry project\\trunk\\telemetryplugin\\source\\telemetryplugin\\telemetryplugin.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal telemetry project\\trunk\\telemetryplugin\\intermediate\\build\\win64\\x64\\telemetryplugineditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\unreal telemetry project\\trunk\\telemetryplugin\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\telemetryplugin\\definitions.telemetryplugin.h",
+            "d:\\unreal telemetry project\\trunk\\telemetryplugin\\source\\telemetryplugin\\telemetryplugin.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

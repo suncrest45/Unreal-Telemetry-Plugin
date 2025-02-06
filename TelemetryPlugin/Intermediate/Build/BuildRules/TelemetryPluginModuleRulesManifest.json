@@ -1,0 +1,9 @@
+{
+	"SourceFiles": [
+		"D:\\Unreal Telemetry Project\\trunk\\TelemetryPlugin\\Source\\TelemetryPlugin\\TelemetryPlugin.Build.cs",
+		"D:\\Unreal Telemetry Project\\trunk\\TelemetryPlugin\\Plugins\\SimpleTelem\\Source\\SimpleTelem\\SimpleTelem.Build.cs",
+		"D:\\Unreal Telemetry Project\\trunk\\TelemetryPlugin\\Source\\TelemetryPlugin.Target.cs",
+		"D:\\Unreal Telemetry Project\\trunk\\TelemetryPlugin\\Source\\TelemetryPluginEditor.Target.cs"
+	],
+	"EngineVersion": "5.4.4"
+}

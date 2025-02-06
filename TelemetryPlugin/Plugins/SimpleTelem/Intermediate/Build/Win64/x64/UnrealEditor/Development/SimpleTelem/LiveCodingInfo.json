@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SimpleTelem.cpp.obj": [
+			"HeatMapBase.gen.cpp.obj",
+			"HeatMapLocation.gen.cpp.obj",
+			"SimpleTelem.init.gen.cpp.obj",
+			"Telemetry_Component.gen.cpp.obj",
+			"WriteToFile.gen.cpp.obj",
+			"Telemetry_Component.cpp.obj",
+			"SimpleTelem.cpp.obj",
+			"WriteToFile.cpp.obj",
+			"HeatMapBase.cpp.obj",
+			"HeatMapLocation.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "TelemetryPlugin",
+			"Path": "..\\Source\\TelemetryPlugin.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "TelemetryPluginEditor",
+			"Path": "..\\Source\\TelemetryPluginEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

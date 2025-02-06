@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unreal telemetry project\\trunk\\telemetryplugin\\plugins\\simpletelem\\source\\simpletelem\\private\\simpletelem.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal telemetry project\\trunk\\telemetryplugin\\intermediate\\build\\win64\\x64\\telemetryplugineditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\unreal telemetry project\\trunk\\telemetryplugin\\plugins\\simpletelem\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\simpletelem\\definitions.simpletelem.h",
+            "d:\\unreal telemetry project\\trunk\\telemetryplugin\\plugins\\simpletelem\\source\\simpletelem\\public\\simpletelem.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

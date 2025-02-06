@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TelemetryPlugin.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TelemetryPlugin.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TelemetryPluginEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\TelemetryPlugin.sln.DotSettings.user" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{BB38096A-B391-30DC-A0D4-4F3EA6B44507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\SimpleTelem">
+      <UniqueIdentifier>{58187C42-5A8A-32F9-A068-DCC7FBC44282}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\SimpleTelem\Source">
+      <UniqueIdentifier>{3448D558-0ACB-33B9-A29F-3AC3DBCA685A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\SimpleTelem\Source\SimpleTelem">
+      <UniqueIdentifier>{97343CAF-FDCB-38C7-A3EB-AA67B5A67D06}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\SimpleTelem\Source\SimpleTelem\SimpleTelem.Build.cs">
+      <Filter>Plugins\SimpleTelem\Source\SimpleTelem</Filter>
+    </None>
+    <Filter Include="Plugins\SimpleTelem\Source\SimpleTelem\Data_Recording">
+      <UniqueIdentifier>{8B48E121-4FD7-30BC-ACE5-3377036C290B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\SimpleTelem\Source\SimpleTelem\Data_Recording\Telemetry_Component.cpp">
+      <Filter>Plugins\SimpleTelem\Source\SimpleTelem\Data_Recording</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\SimpleTelem\Source\SimpleTelem\Data_Recording\Telemetry_Component.h">
+      <Filter>Plugins\SimpleTelem\Source\SimpleTelem\Data_Recording</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\SimpleTelem\Source\SimpleTelem\Private">
+      <UniqueIdentifier>{11ED7F96-7C41-3A00-9CE3-FB57E537EADA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\SimpleTelem\Source\SimpleTelem\Private\SimpleTelem.cpp">
+      <Filter>Plugins\SimpleTelem\Source\SimpleTelem\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SimpleTelem\Source\SimpleTelem\Private\WriteToFile.cpp">
+      <Filter>Plugins\SimpleTelem\Source\SimpleTelem\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\SimpleTelem\Source\SimpleTelem\Public">
+      <UniqueIdentifier>{48F6D67D-211A-3089-9D46-45A876472BC6}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\SimpleTelem\Source\SimpleTelem\Public\SimpleTelem.h">
+      <Filter>Plugins\SimpleTelem\Source\SimpleTelem\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SimpleTelem\Source\SimpleTelem\Public\WriteToFile.h">
+      <Filter>Plugins\SimpleTelem\Source\SimpleTelem\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\SimpleTelem\Source\SimpleTelem\Telemetry">
+      <UniqueIdentifier>{A180370A-329C-3CB1-96F2-9D215D99ADDA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\SimpleTelem\Source\SimpleTelem\Telemetry\HeatMapBase.cpp">
+      <Filter>Plugins\SimpleTelem\Source\SimpleTelem\Telemetry</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\SimpleTelem\Source\SimpleTelem\Telemetry\HeatMapBase.h">
+      <Filter>Plugins\SimpleTelem\Source\SimpleTelem\Telemetry</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\SimpleTelem\Source\SimpleTelem\Telemetry\HeatMapLocation.cpp">
+      <Filter>Plugins\SimpleTelem\Source\SimpleTelem\Telemetry</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\SimpleTelem\Source\SimpleTelem\Telemetry\HeatMapLocation.h">
+      <Filter>Plugins\SimpleTelem\Source\SimpleTelem\Telemetry</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\SimpleTelem\SimpleTelem.uplugin">
+      <Filter>Plugins\SimpleTelem</Filter>
+    </None>
+    <Filter Include="Plugins\SimpleTelem\Config">
+      <UniqueIdentifier>{C3644093-7ACE-3C02-AB17-9FA7FBA94B2E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\SimpleTelem\Config\DefaultSimpleTelem.ini">
+      <Filter>Plugins\SimpleTelem\Config</Filter>
+    </None>
+    <None Include="..\..\Plugins\SimpleTelem\Config\FilterPlugin.ini">
+      <Filter>Plugins\SimpleTelem\Config</Filter>
+    </None>
+    <Filter Include="Plugins\SimpleTelem\Resources">
+      <UniqueIdentifier>{11B8BE53-1EFE-32E3-8F31-75EA88A629D6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\SimpleTelem\Resources\Icon128.png">
+      <Filter>Plugins\SimpleTelem\Resources</Filter>
+    </None>
+    <Filter Include="Source\TelemetryPlugin">
+      <UniqueIdentifier>{0E778491-DFCE-37D9-9C37-CF2838CCDCAB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TelemetryPlugin\TelemetryPlugin.Build.cs">
+      <Filter>Source\TelemetryPlugin</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TelemetryPlugin\TelemetryPlugin.cpp">
+      <Filter>Source\TelemetryPlugin</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TelemetryPlugin\TelemetryPlugin.h">
+      <Filter>Source\TelemetryPlugin</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

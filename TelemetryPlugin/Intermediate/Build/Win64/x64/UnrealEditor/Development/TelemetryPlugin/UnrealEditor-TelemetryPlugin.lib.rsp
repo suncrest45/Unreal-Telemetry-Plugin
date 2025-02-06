@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-TelemetryPlugin.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Unreal Telemetry Project\trunk\TelemetryPlugin\Intermediate\Build\Win64\x64\TelemetryPluginEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"D:\Unreal Telemetry Project\trunk\TelemetryPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\TelemetryPlugin\TelemetryPlugin.cpp.obj"
+"D:\Unreal Telemetry Project\trunk\TelemetryPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\TelemetryPlugin\Default.rc2.res"
+/OUT:"D:\Unreal Telemetry Project\trunk\TelemetryPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\TelemetryPlugin\UnrealEditor-TelemetryPlugin.lib"

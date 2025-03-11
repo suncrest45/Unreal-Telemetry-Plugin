@@ -1,85 +1,9 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Unreal Telemetry Project\\trunk\\TelemetryPlugin\\Intermediate\\Build\\BuildRulesProjects\\TelemetryPluginModuleRules\\TelemetryPluginModuleRules.csproj": {}
+    "D:\\Unreal Telemetry project\\trunk\\TelemetryPlugin\\Intermediate\\Build\\BuildRulesProjects\\TelemetryPluginModuleRules\\TelemetryPluginModuleRules.csproj": {}
   },
   "projects": {
-    "C:\\UE_5.4\\Engine\\Intermediate\\Build\\BuildRulesProjects\\MarketplaceRules\\MarketplaceRules.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\UE_5.4\\Engine\\Intermediate\\Build\\BuildRulesProjects\\MarketplaceRules\\MarketplaceRules.csproj",
-        "projectName": "MarketplaceRules",
-        "projectPath": "C:\\UE_5.4\\Engine\\Intermediate\\Build\\BuildRulesProjects\\MarketplaceRules\\MarketplaceRules.csproj",
-        "packagesPath": "C:\\Users\\Aidan\\.nuget\\packages\\",
-        "outputPath": "C:\\UE_5.4\\Engine\\Intermediate\\Build\\BuildRulesProjects\\MarketplaceRules\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Aidan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "C:\\UE_5.4\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj": {
-                "projectPath": "C:\\UE_5.4\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj"
-              },
-              "C:\\UE_5.4\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj": {
-                "projectPath": "C:\\UE_5.4\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj"
-              },
-              "C:\\UE_5.4\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj": {
-                "projectPath": "C:\\UE_5.4\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj"
-              },
-              "C:\\UE_5.4\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj": {
-                "projectPath": "C:\\UE_5.4\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\UE_5.4\\Engine\\Binaries\\ThirdParty\\DotNet\\6.0.302\\windows\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
     "C:\\UE_5.4\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -1168,14 +1092,14 @@
         }
       }
     },
-    "D:\\Unreal Telemetry Project\\trunk\\TelemetryPlugin\\Intermediate\\Build\\BuildRulesProjects\\TelemetryPluginModuleRules\\TelemetryPluginModuleRules.csproj": {
+    "D:\\Unreal Telemetry project\\trunk\\TelemetryPlugin\\Intermediate\\Build\\BuildRulesProjects\\TelemetryPluginModuleRules\\TelemetryPluginModuleRules.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Unreal Telemetry Project\\trunk\\TelemetryPlugin\\Intermediate\\Build\\BuildRulesProjects\\TelemetryPluginModuleRules\\TelemetryPluginModuleRules.csproj",
+        "projectUniqueName": "D:\\Unreal Telemetry project\\trunk\\TelemetryPlugin\\Intermediate\\Build\\BuildRulesProjects\\TelemetryPluginModuleRules\\TelemetryPluginModuleRules.csproj",
         "projectName": "TelemetryPluginModuleRules",
-        "projectPath": "D:\\Unreal Telemetry Project\\trunk\\TelemetryPlugin\\Intermediate\\Build\\BuildRulesProjects\\TelemetryPluginModuleRules\\TelemetryPluginModuleRules.csproj",
+        "projectPath": "D:\\Unreal Telemetry project\\trunk\\TelemetryPlugin\\Intermediate\\Build\\BuildRulesProjects\\TelemetryPluginModuleRules\\TelemetryPluginModuleRules.csproj",
         "packagesPath": "C:\\Users\\Aidan\\.nuget\\packages\\",
-        "outputPath": "D:\\Unreal Telemetry Project\\trunk\\TelemetryPlugin\\Intermediate\\Build\\BuildRulesProjects\\TelemetryPluginModuleRules\\obj\\",
+        "outputPath": "D:\\Unreal Telemetry project\\trunk\\TelemetryPlugin\\Intermediate\\Build\\BuildRulesProjects\\TelemetryPluginModuleRules\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1196,9 +1120,6 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\UE_5.4\\Engine\\Intermediate\\Build\\BuildRulesProjects\\MarketplaceRules\\MarketplaceRules.csproj": {
-                "projectPath": "C:\\UE_5.4\\Engine\\Intermediate\\Build\\BuildRulesProjects\\MarketplaceRules\\MarketplaceRules.csproj"
-              },
               "C:\\UE_5.4\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj": {
                 "projectPath": "C:\\UE_5.4\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj"
               },

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yuUq9pAJR7o=",
+  "dgSpecHash": "MracWaV2+58=",
   "success": true,
-  "projectFilePath": "D:\\Unreal Telemetry Project\\trunk\\TelemetryPlugin\\Intermediate\\Build\\BuildRulesProjects\\TelemetryPluginModuleRules\\TelemetryPluginModuleRules.csproj",
+  "projectFilePath": "D:\\Unreal Telemetry project\\trunk\\TelemetryPlugin\\Intermediate\\Build\\BuildRulesProjects\\TelemetryPluginModuleRules\\TelemetryPluginModuleRules.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aidan\\.nuget\\packages\\bitfaster.caching\\2.4.1\\bitfaster.caching.2.4.1.nupkg.sha512",
     "C:\\Users\\Aidan\\.nuget\\packages\\blake3\\0.5.1\\blake3.0.5.1.nupkg.sha512",

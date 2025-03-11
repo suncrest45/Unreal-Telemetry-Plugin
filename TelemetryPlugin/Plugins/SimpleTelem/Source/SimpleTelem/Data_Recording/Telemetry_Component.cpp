@@ -28,13 +28,13 @@ void UTelemetry_Component::BeginPlay()
 	Super::BeginPlay();
 
 	// Make sure the component has a blackboard 
-	if (!this->BlackboardAsset->IsValid())
+	if (!this->GetBlackboardAsset()->IsValid())
 	{
 		return;
 	}
 
 	// Loop through the blackboard, getting all keys as strings
-	for (auto& Keys : this->BlackboardAsset->GetKeys())
+	for (auto& Keys : this->GetBlackboardAsset()->GetKeys())
 	{
 		// Do not record self actor
 		if (Keys.EntryName == "SelfActor")
@@ -60,7 +60,7 @@ void UTelemetry_Component::TickComponent(float DeltaTime, ELevelTick TickType, F
 void UTelemetry_Component::ConcatenateKeysAndValues()
 {
 	Telemetry_ValuesString += FString::SanitizeFloat(UGameplayStatics::GetTimeSeconds(GetWorld())) + ",";
-	for (auto& Keys : this->BlackboardAsset->GetKeys())
+	for (auto& Keys : this->GetBlackboardAsset()->GetKeys())
 	{
 		// Do not record self actor
 		if (Keys.EntryName == "SelfActor")

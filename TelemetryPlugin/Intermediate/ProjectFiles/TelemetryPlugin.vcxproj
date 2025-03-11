@@ -67,7 +67,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{B95E6F2E-47D1-39E1-AAD6-B2C3C86F08D2}</ProjectGuid>
+    <ProjectGuid>{C6B37462-8085-3C66-B277-ADF4C7D02D24}</ProjectGuid>
     <RootNamespace>TelemetryPlugin</RootNamespace>
   </PropertyGroup>
   <Import Project="UECommon.props" />
@@ -425,8 +425,6 @@
     <None Include="..\..\TelemetryPlugin.uproject"/>
     <None Include="..\..\Source\TelemetryPlugin.Target.cs"/>
     <None Include="..\..\Source\TelemetryPluginEditor.Target.cs"/>
-    <None Include="..\..\.vsconfig"/>
-    <None Include="..\..\TelemetryPlugin.sln.DotSettings.user"/>
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultGame.ini"/>

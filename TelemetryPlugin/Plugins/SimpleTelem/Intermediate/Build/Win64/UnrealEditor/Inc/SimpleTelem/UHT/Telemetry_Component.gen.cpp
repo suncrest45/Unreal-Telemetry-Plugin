@@ -37,13 +37,7 @@ struct Z_Construct_UEnum_SimpleTelem_EKeyTpe_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "// An enum allowing to us to know what type a blackboard key is\n" },
-#endif
 		{ "ModuleRelativePath", "Data_Recording/Telemetry_Component.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "An enum allowing to us to know what type a blackboard key is" },
-#endif
 		{ "Type_Bool.Name", "Type_Bool" },
 		{ "Type_Enum.Name", "Type_Enum" },
 		{ "Type_Float.Name", "Type_Float" },
@@ -429,13 +423,13 @@ struct Z_Construct_UFunction_UTelemetry_Component_AddTrackersAsString_Statics
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
 const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UTelemetry_Component_AddTrackersAsString_Statics::NewProp_Key = { "Key", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(Telemetry_Component_eventAddTrackersAsString_Parms, Key), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Key_MetaData), NewProp_Key_MetaData) };
-const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UTelemetry_Component_AddTrackersAsString_Statics::NewProp_Value = { "Value", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(Telemetry_Component_eventAddTrackersAsString_Parms, Value), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UTelemetry_Component_AddTrackersAsString_Statics::NewProp_Value = { "Value", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(Telemetry_Component_eventAddTrackersAsString_Parms, Value), METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UTelemetry_Component_AddTrackersAsString_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTelemetry_Component_AddTrackersAsString_Statics::NewProp_Key,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTelemetry_Component_AddTrackersAsString_Statics::NewProp_Value,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UTelemetry_Component_AddTrackersAsString_Statics::PropPointers) < 2048);
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UTelemetry_Component_AddTrackersAsString_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTelemetry_Component, nullptr, "AddTrackersAsString", nullptr, nullptr, Z_Construct_UFunction_UTelemetry_Component_AddTrackersAsString_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UTelemetry_Component_AddTrackersAsString_Statics::PropPointers), sizeof(Z_Construct_UFunction_UTelemetry_Component_AddTrackersAsString_Statics::Telemetry_Component_eventAddTrackersAsString_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04420401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UTelemetry_Component_AddTrackersAsString_Statics::Function_MetaDataParams), Z_Construct_UFunction_UTelemetry_Component_AddTrackersAsString_Statics::Function_MetaDataParams) };
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UTelemetry_Component_AddTrackersAsString_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTelemetry_Component, nullptr, "AddTrackersAsString", nullptr, nullptr, Z_Construct_UFunction_UTelemetry_Component_AddTrackersAsString_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UTelemetry_Component_AddTrackersAsString_Statics::PropPointers), sizeof(Z_Construct_UFunction_UTelemetry_Component_AddTrackersAsString_Statics::Telemetry_Component_eventAddTrackersAsString_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UTelemetry_Component_AddTrackersAsString_Statics::Function_MetaDataParams), Z_Construct_UFunction_UTelemetry_Component_AddTrackersAsString_Statics::Function_MetaDataParams) };
 static_assert(sizeof(Z_Construct_UFunction_UTelemetry_Component_AddTrackersAsString_Statics::Telemetry_Component_eventAddTrackersAsString_Parms) < MAX_uint16);
 UFunction* Z_Construct_UFunction_UTelemetry_Component_AddTrackersAsString()
 {
@@ -449,10 +443,10 @@ UFunction* Z_Construct_UFunction_UTelemetry_Component_AddTrackersAsString()
 DEFINE_FUNCTION(UTelemetry_Component::execAddTrackersAsString)
 {
 	P_GET_PROPERTY(FStrProperty,Z_Param_Key);
-	P_GET_PROPERTY_REF(FStrProperty,Z_Param_Out_Value);
+	P_GET_PROPERTY(FStrProperty,Z_Param_Value);
 	P_FINISH;
 	P_NATIVE_BEGIN;
-	P_THIS->AddTrackersAsString(Z_Param_Key,Z_Param_Out_Value);
+	P_THIS->AddTrackersAsString(Z_Param_Key,Z_Param_Value);
 	P_NATIVE_END;
 }
 // End Class UTelemetry_Component Function AddTrackersAsString
@@ -552,42 +546,6 @@ DEFINE_FUNCTION(UTelemetry_Component::execConcatenateKeysAndValues)
 	P_NATIVE_END;
 }
 // End Class UTelemetry_Component Function ConcatenateKeysAndValues
-
-// Begin Class UTelemetry_Component Function DisplayTelemetry
-struct Z_Construct_UFunction_UTelemetry_Component_DisplayTelemetry_Statics
-{
-#if WITH_METADATA
-	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-		{ "Category", "Telemetry" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/// @brief Prints the current telemetry data to the screen\n" },
-#endif
-		{ "ModuleRelativePath", "Data_Recording/Telemetry_Component.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "@brief Prints the current telemetry data to the screen" },
-#endif
-	};
-#endif // WITH_METADATA
-	static const UECodeGen_Private::FFunctionParams FuncParams;
-};
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UTelemetry_Component_DisplayTelemetry_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTelemetry_Component, nullptr, "DisplayTelemetry", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UTelemetry_Component_DisplayTelemetry_Statics::Function_MetaDataParams), Z_Construct_UFunction_UTelemetry_Component_DisplayTelemetry_Statics::Function_MetaDataParams) };
-UFunction* Z_Construct_UFunction_UTelemetry_Component_DisplayTelemetry()
-{
-	static UFunction* ReturnFunction = nullptr;
-	if (!ReturnFunction)
-	{
-		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UTelemetry_Component_DisplayTelemetry_Statics::FuncParams);
-	}
-	return ReturnFunction;
-}
-DEFINE_FUNCTION(UTelemetry_Component::execDisplayTelemetry)
-{
-	P_FINISH;
-	P_NATIVE_BEGIN;
-	P_THIS->DisplayTelemetry();
-	P_NATIVE_END;
-}
-// End Class UTelemetry_Component Function DisplayTelemetry
 
 // Begin Class UTelemetry_Component Function GetHeadersString
 struct Z_Construct_UFunction_UTelemetry_Component_GetHeadersString_Statics
@@ -756,7 +714,6 @@ void UTelemetry_Component::StaticRegisterNativesUTelemetry_Component()
 		{ "AddTrackersAsString", &UTelemetry_Component::execAddTrackersAsString },
 		{ "AddTrackersAsVector", &UTelemetry_Component::execAddTrackersAsVector },
 		{ "ConcatenateKeysAndValues", &UTelemetry_Component::execConcatenateKeysAndValues },
-		{ "DisplayTelemetry", &UTelemetry_Component::execDisplayTelemetry },
 		{ "GetHeadersString", &UTelemetry_Component::execGetHeadersString },
 		{ "GetValuesString", &UTelemetry_Component::execGetValuesString },
 		{ "PrintTelemetry", &UTelemetry_Component::execPrintTelemetry },
@@ -788,19 +745,8 @@ struct Z_Construct_UClass_UTelemetry_Component_Statics
 		{ "ToolTip", "The name of the file to write to" },
 #endif
 	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_RowName_MetaData[] = {
-		{ "Category", "Telemetry" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "// For Unreal Data Table importing\n" },
-#endif
-		{ "ModuleRelativePath", "Data_Recording/Telemetry_Component.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "For Unreal Data Table importing" },
-#endif
-	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FStrPropertyParams NewProp_FileName;
-	static const UECodeGen_Private::FStrPropertyParams NewProp_RowName;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
@@ -809,10 +755,9 @@ struct Z_Construct_UClass_UTelemetry_Component_Statics
 		{ &Z_Construct_UFunction_UTelemetry_Component_AddTrackersAsInt, "AddTrackersAsInt" }, // 2089919844
 		{ &Z_Construct_UFunction_UTelemetry_Component_AddTrackersAsName, "AddTrackersAsName" }, // 1032047693
 		{ &Z_Construct_UFunction_UTelemetry_Component_AddTrackersAsRotator, "AddTrackersAsRotator" }, // 362843399
-		{ &Z_Construct_UFunction_UTelemetry_Component_AddTrackersAsString, "AddTrackersAsString" }, // 3825732452
+		{ &Z_Construct_UFunction_UTelemetry_Component_AddTrackersAsString, "AddTrackersAsString" }, // 2479403295
 		{ &Z_Construct_UFunction_UTelemetry_Component_AddTrackersAsVector, "AddTrackersAsVector" }, // 2618550546
 		{ &Z_Construct_UFunction_UTelemetry_Component_ConcatenateKeysAndValues, "ConcatenateKeysAndValues" }, // 3168097869
-		{ &Z_Construct_UFunction_UTelemetry_Component_DisplayTelemetry, "DisplayTelemetry" }, // 1388584458
 		{ &Z_Construct_UFunction_UTelemetry_Component_GetHeadersString, "GetHeadersString" }, // 642921653
 		{ &Z_Construct_UFunction_UTelemetry_Component_GetValuesString, "GetValuesString" }, // 26261328
 		{ &Z_Construct_UFunction_UTelemetry_Component_PrintTelemetry, "PrintTelemetry" }, // 1789559675
@@ -824,10 +769,8 @@ struct Z_Construct_UClass_UTelemetry_Component_Statics
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
 const UECodeGen_Private::FStrPropertyParams Z_Construct_UClass_UTelemetry_Component_Statics::NewProp_FileName = { "FileName", nullptr, (EPropertyFlags)0x0020080000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UTelemetry_Component, FileName), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_FileName_MetaData), NewProp_FileName_MetaData) };
-const UECodeGen_Private::FStrPropertyParams Z_Construct_UClass_UTelemetry_Component_Statics::NewProp_RowName = { "RowName", nullptr, (EPropertyFlags)0x0020080000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UTelemetry_Component, RowName), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_RowName_MetaData), NewProp_RowName_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UTelemetry_Component_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UTelemetry_Component_Statics::NewProp_FileName,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UTelemetry_Component_Statics::NewProp_RowName,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UTelemetry_Component_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_UTelemetry_Component_Statics::DependentSingletons[])() = {
@@ -870,13 +813,13 @@ UTelemetry_Component::~UTelemetry_Component() {}
 struct Z_CompiledInDeferFile_FID_TelemetryPlugin_Plugins_SimpleTelem_Source_SimpleTelem_Data_Recording_Telemetry_Component_h_Statics
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
-		{ EKeyTpe_StaticEnum, TEXT("EKeyTpe"), &Z_Registration_Info_UEnum_EKeyTpe, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1320741826U) },
+		{ EKeyTpe_StaticEnum, TEXT("EKeyTpe"), &Z_Registration_Info_UEnum_EKeyTpe, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3005363582U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UTelemetry_Component, UTelemetry_Component::StaticClass, TEXT("UTelemetry_Component"), &Z_Registration_Info_UClass_UTelemetry_Component, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UTelemetry_Component), 3570062334U) },
+		{ Z_Construct_UClass_UTelemetry_Component, UTelemetry_Component::StaticClass, TEXT("UTelemetry_Component"), &Z_Registration_Info_UClass_UTelemetry_Component, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UTelemetry_Component), 796170319U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TelemetryPlugin_Plugins_SimpleTelem_Source_SimpleTelem_Data_Recording_Telemetry_Component_h_3143373570(TEXT("/Script/SimpleTelem"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TelemetryPlugin_Plugins_SimpleTelem_Source_SimpleTelem_Data_Recording_Telemetry_Component_h_255631367(TEXT("/Script/SimpleTelem"),
 	Z_CompiledInDeferFile_FID_TelemetryPlugin_Plugins_SimpleTelem_Source_SimpleTelem_Data_Recording_Telemetry_Component_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TelemetryPlugin_Plugins_SimpleTelem_Source_SimpleTelem_Data_Recording_Telemetry_Component_h_Statics::ClassInfo),
 	nullptr, 0,
 	Z_CompiledInDeferFile_FID_TelemetryPlugin_Plugins_SimpleTelem_Source_SimpleTelem_Data_Recording_Telemetry_Component_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TelemetryPlugin_Plugins_SimpleTelem_Source_SimpleTelem_Data_Recording_Telemetry_Component_h_Statics::EnumInfo));
